@@ -6,8 +6,8 @@ export default function render(url, opts) {
   const stream = renderToPipeableStream(
     <StaticRouter location={url}>
       <App />
-    </StaticRouter>
+    </StaticRouter>,
+    opts
   );
-
   return stream;
 }
