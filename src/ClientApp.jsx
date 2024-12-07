@@ -5,6 +5,6 @@ import App from "./App";
 hydrateRoot(
   document.getElementById("root"),
   <BrowserRouter>
-    <App></App>
+    <App />
   </BrowserRouter>
 );
